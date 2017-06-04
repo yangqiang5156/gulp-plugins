@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>污染地图</title>
+   @@include('headLink.inc')
+</head>
+
+<body>
+@@include('header.inc')
+    <div class="map_con">
+        <div id="site_map">
+        </div>
+        <div class="map_search">
+            <div class="select_search">
+                <select name="province" id="">
+                        <option value="">北京市</option>
+                    </select>
+                <select name="city" id="">
+                        <option value="">北京市</option>
+                    </select>
+                <select name="district" id="">
+                        <option value="">石景山区</option>
+                    </select>
+                <span class="btn_mapSearch"><img src="../images/map_search.png" alt=""></span>
+            </div>
+        </div>
+        <div class="map_legend">
+            <img src="../images/poll_legend.png" alt="">
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=d5fAZVaS6y5IgDVljNn2fhzA&s=1"></script>
+    <script type="text/javascript" src="../js/siteMap.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+.price_banner{
+	width:100%;
+	height:200px;
+	background: url(../images/price_banner.png) top center;
+	background-size: cover;
+}
+
+.report_type{
+	width: 1200px;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+.price_head{
+	border-left: 10px solid #0e9cfe;
+	margin-top:60px;
+	padding-left:10px;
+	font-size: 22px;
+}
+.price_type_head{
+	background-color: #e9f4fb;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	margin:30px 0 20px 0;
+	padding-left:20px;
+	font-size: 18px;
+}
+.icon_right{
+	display:inline-block;
+	margin-right:15px;
+}
+
+.info_disc{
+	color:#ff5400;
+}
+.info_list{
+	display: inline-block;
+	margin-left:70px;
+}
+.btn_order{
+	float:right;
+	margin-right:20px;
+	display: inline-block;
+	width:80px;
+	height:36px;
+	line-height:36px;
+	border-radius: 3px;
+	background-color: #0e9cfe;
+	color:#ffffff;
+	text-align: center;
+}
+
+.price_info{
+	float:left;
+}
+.price_contact p{
+
+	margin-top:50px;
+}
+.price_more p{
+	margin-left:20px;
+}
+.price_contact p img{
+	display: inline-block;
+	vertical-align: -12px;
+}
+.contact_tele{
+	margin-left:56px;
+}
+.more_one{
+	font-size: 18px;
+	color:#000000;
+}
+
+.more_two{
+	font-size: 16px;
+	color:#818181;
+}

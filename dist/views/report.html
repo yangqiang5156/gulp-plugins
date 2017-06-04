@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>污染地图</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+
+<body>
+<div class="site_wrap">
+        <div class="map_header_wrap">
+            <div class="map_header cf">
+                <div class="coi_logo">
+                    <img src="../images/logo.png" alt="">
+                </div>
+                <div class="header_right cf">
+                    <div class="header_login cf">
+                        <p><span><a href="login.html">登录</a></span><span>|</span><span><a href="signin.html">注册</a></span>&nbsp;&nbsp;<span><a href="user_report.html">个人中心</a></span></p>
+
+                    </div>
+                    <div class="header_nav cf">
+                        <ul>
+                            <li><a class="nav_link" href="index.html">污染地图</a></li>
+                            <li><a class="nav_link" href="report.html">分析报告</a></li>
+                            <li><a class="nav_link" href="visual.html">可视化平台</a></li>
+                            <li><a class="nav_link" href="price.html">价格</a></li>
+                            <li><a class="nav_link" href="dataApi.html">数据API</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="rep_banner"></div>
+    <div class="rep_con cf">
+        <div class="rep_left">
+            <div class="rep_left_head">请选择您要购买的报告参数</div>
+            <div class="rep_site">您需要分析的站点</div>
+            <div class="site_choose">
+                <span>站点选择:</span>
+                <select name="" id=""></select>
+                <select name="" id=""></select>
+                <select name="" id=""></select>
+            </div>
+            <div class="rep_type_choose">您需要的报告类型</div>
+            <div class="rep_type site_choose">
+                <span>报告类型:</span>
+                <label for=""><input name="repType" type="radio">日报</label>
+                <label for=""><input name="repType" type="radio">周报</label>
+                <label for=""><input name="repType" type="radio">月报</label>
+                <label for=""><input name="repType" type="radio">年报</label>
+            </div>
+            <div class="rep_time site_choose">
+                <span>报告时间:</span>
+                <span>从</span>
+                <input type="week">
+                <span>到</span>
+                <input type="text">
+            </div>
+            <div class="rep_style site_choose">
+                <span>报告形式:</span>
+                <label for=""><input name="repStyle" type="radio">文字+图表</label>
+                <label for=""><input name="repStyle" type="radio">纯文字</label>
+            </div>
+            <div class="rep_format site_choose">
+                <span>报告格式:</span>
+                <label for=""><input name="repFormat" type="radio">ALL</label>
+                <label for=""><input name="repFormat" type="radio">WORD</label>
+                <label for=""><input name="repFormat" type="radio">PDF</label>
+            </div>
+        </div>
+        <div class="rep_right">
+            <div class="rep_left_head param_right_head">参数显示</div>
+            <div class="rep_site right_common">您需要分析的站点</div>
+            <div class="site_choose right_common">
+                <span>北京市石景山</span>
+            </div>
+            <div class="rep_type_choose right_common">您需要的报告类型</div>
+            <div class="site_choose right_common">
+                <span>日报</span>
+            </div>
+            <div class="site_choose right_common">
+                <span>从2011到2016共5份</span>
+            </div>
+            <div class="site_choose right_common">
+                <span>纯文字</span>
+            </div>
+            <div class="site_choose right_common">
+                <span>WORD</span>
+            </div>
+            <p class="prev_wrap"><a class="btn_prev" href="javascript:" onclick="showMayBuy()">生成</a></p>
+
+        </div>
+    </div>
+
+        <div class="site_footer">
+        <p>技术支持：北京中科云谱物联技术有限公司 &nbsp; 版权所有：©2015 Coilabs 京ICP备15052159号</p>
+    </div>
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="layer/layer.js"></script>
+    <script type="text/javascript" src="../js/report.js"></script>
+    <script type="text/javascript" src="../js/alertInfo.js"></script>
+
+
+
+</body>
+
+</html>

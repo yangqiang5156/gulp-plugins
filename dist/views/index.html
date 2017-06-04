@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>污染地图</title>
+   <link rel="stylesheet" href="../css/style.min.css">
+</head>
+
+<body>
+<div class="site_wrap">
+        <div class="map_header_wrap">
+            <div class="map_header cf">
+                <div class="coi_logo">
+                    <img src="../images/logo.png" alt="">
+                </div>
+                <div class="header_right cf">
+                    <div class="header_login cf">
+                        <p><span><a href="login.html">登录</a></span><span>|</span><span><a href="signin.html">注册</a></span>&nbsp;&nbsp;<span><a href="user_report.html">个人中心</a></span></p>
+
+                    </div>
+                    <div class="header_nav cf">
+                        <ul>
+                            <li><a class="nav_link" href="index.html">污染地图</a></li>
+                            <li><a class="nav_link" href="report.html">分析报告</a></li>
+                            <li><a class="nav_link" href="visual.html">可视化平台</a></li>
+                            <li><a class="nav_link" href="price.html">价格</a></li>
+                            <li><a class="nav_link" href="dataApi.html">数据API</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="map_con">
+        <div id="site_map">
+        </div>
+        <div class="map_search">
+            <div class="select_search">
+                <select name="province" id="">
+                        <option value="">北京市</option>
+                    </select>
+                <select name="city" id="">
+                        <option value="">北京市</option>
+                    </select>
+                <select name="district" id="">
+                        <option value="">石景山区</option>
+                    </select>
+                <span class="btn_mapSearch"><img src="../images/map_search.png" alt=""></span>
+            </div>
+        </div>
+        <div class="map_legend">
+            <img src="../images/poll_legend.png" alt="">
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=d5fAZVaS6y5IgDVljNn2fhzA&s=1"></script>
+    <script type="text/javascript" src="../js/siteMap.js"></script>
+
+</body>
+
+</html>

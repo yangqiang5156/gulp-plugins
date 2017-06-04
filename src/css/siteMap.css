@@ -1,0 +1,76 @@
+.map_con {
+    position: relative;
+}
+
+.map_legend {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.map_search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.select_search select {
+    display: inline-block;
+    float: left;
+    margin: 5px 0;
+    width: 116px;
+    height: 36px;
+}
+
+.btn_mapSearch {
+    cursor: pointer;
+}
+
+.btn_mapSearch img {
+    width: 36px;
+    height: 36px;
+    margin-top: 5px;
+}
+
+.win_table {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.win_unit {
+    font-size: 10px;
+    color: #7f7f7f;
+}
+
+.win_value {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.win_rep {
+    text-align: center;
+    margin: 10px 0;
+}
+.rep_link{
+	color:#D800FF;
+	font-size: 16px;
+}
+.win_time {
+    border-top: 1px solid #cccccc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #767676;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.arrow-left {
+    display: inline-block;
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transform: rotate(45deg);
+}
